@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #d5f5e3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.roomallocationsystem.RegistrationPage">
+   <children>
+      <Label layoutX="189.0" layoutY="87.0" text="Enter your name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_name" layoutX="189.0" layoutY="109.0" prefHeight="26.0" prefWidth="321.0" promptText="enter your name" />
+      <Label layoutX="189.0" layoutY="145.0" text="Enter Your Id">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_id" layoutX="189.0" layoutY="163.0" prefHeight="26.0" prefWidth="321.0" promptText="enter your student id" />
+      <Label layoutX="189.0" layoutY="252.0" text="Enter your department">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_dept" layoutX="189.0" layoutY="270.0" prefHeight="26.0" prefWidth="321.0" promptText="Enter Department" />
+      <Label layoutX="189.0" layoutY="306.0" text="Level">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_level" layoutX="189.0" layoutY="324.0" prefHeight="26.0" prefWidth="321.0" promptText="Enter Level" />
+      <Label layoutX="189.0" layoutY="359.0" text="Semester">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_semester" layoutX="189.0" layoutY="377.0" prefHeight="26.0" prefWidth="321.0" promptText="Enter Semester" />
+      <Label layoutX="189.0" layoutY="200.0" text="Enter Your Faculty">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_faculty" layoutX="189.0" layoutY="218.0" prefHeight="26.0" prefWidth="321.0" promptText="enter your faculty" />
+      <Text layoutX="182.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CR Registration">
+         <font>
+            <Font name="System Bold" size="46.0" />
+         </font>
+      </Text>
+      <Button fx:id="submit_button" layoutX="269.0" layoutY="540.0" mnemonicParsing="false" onAction="#submit_button_on_action" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #5dade2;" text="Submit">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="back_button" fitHeight="26.0" fitWidth="34.0" layoutX="7.0" layoutY="12.0" onMouseClicked="#back_button_on_action" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../backward.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="187.0" layoutY="413.0" text="Phone">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_phone" layoutX="187.0" layoutY="431.0" prefHeight="26.0" prefWidth="321.0" promptText="Enter Phone Number" />
+      <Label layoutX="189.0" layoutY="471.0" text="E_mail">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_mail" layoutX="189.0" layoutY="489.0" prefHeight="26.0" prefWidth="321.0" promptText="Enter e_mail" />
+   </children>
+</AnchorPane>
